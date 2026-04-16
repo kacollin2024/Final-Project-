@@ -7,4 +7,7 @@ add_executable(Collens_Fiore_Walowski_Capstone_Stubs Collens-Fiore.Walowski.Caps
         TheStackIn25Words.cpp
         TheStackIn25Words.h
         Node.cpp
-        Node.h)
+        Node.h
+        Menu.h
+        Menu.cpp)
+
