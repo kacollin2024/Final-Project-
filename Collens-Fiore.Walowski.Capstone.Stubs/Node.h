@@ -8,6 +8,7 @@ private:
 
 public:
 
+// Constructor
     Node();
 };
 

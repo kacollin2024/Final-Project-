@@ -1,6 +1,6 @@
 ﻿#include "TheStackIn25Words.h"
 #include <string>
-#include "Node.h"
+// #include "Node.h"
 using namespace std;
 
 TheStackIn25Words::TheStackIn25Words()
@@ -12,11 +12,6 @@ TheStackIn25Words::~TheStackIn25Words()
 {
     // deconstructor
     // clears up memory by deleting all nodes
-}
-
-void TheStackIn25Words::mainMenu()
-{
-
 }
 
 void TheStackIn25Words::push()
@@ -42,3 +37,5 @@ bool TheStackIn25Words::stackIsEmpty()
     // return true if top is null (empty stack)
     // return false if we have nodes (top is not null)
 }
+
+//recycle code from the cave app 
