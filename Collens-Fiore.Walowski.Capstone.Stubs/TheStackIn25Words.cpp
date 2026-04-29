@@ -1,71 +1,46 @@
 ﻿#include "TheStackIn25Words.h"
 #include <string>
-#include "Node.h"
+// #include "Node.h"
 using namespace std;
 
 TheStackIn25Words::TheStackIn25Words()
 {
     // constructor
-    top = nullptr; 
-    count = 0;
-
 }
 
 TheStackIn25Words::~TheStackIn25Words()
 {
     // deconstructor
     // clears up memory by deleting all nodes
-    while (!stackIsEmpty())
-    {
-        pop();
-    }
 }
 
-void TheStackIn25Words::push(string word)
+void TheStackIn25Words::loadTheStackIn25Words()
 {
-    Node* newNode = new Node(word);
+    // preloads the stack with 25 different words
+}
 
-    if (stackIsEmpty())
-    {
-        top = newNode;
-    }
-    else
-    {
-        newNode->next = top;
-        top = newNode;
-    }
-    // Create new node with this direction
+void TheStackIn25Words::push()
+{
+    // Create new node with this word
     // Check if our stack is empty (this is the first node)
     // If empty, this node become the top
-    // If not empty, connect this node to the current op
+    // If not empty, connect this node to the current top
     // Make this new node top of each stack
 }
 
 string TheStackIn25Words::pop()
 {
-     // Check if stack is empty
-    if (stackIsEmpty)
-    {
-        // If empty, tell the user there is nothing to pope and return null
-        return "null";`
-    }  
+    // Check if stack is empty
+    // If empty, tell the user there is nothing to pop and return null
     // Otherwise, grab the top node
-    Node* temp = top;
-    string word = temp->word;
-    top = top->next;
-    delete temp;
-    return word;
+    // move top down to the previous node
 }
 
 bool TheStackIn25Words::stackIsEmpty()
 {
-        // return true if top is null (empty stack)
-    if (top ==nullptr)
-    { 
-        return true;
-    }
+    // Check if our stack has any nodes
+    // return true if top is null (empty stack)
     // return false if we have nodes (top is not null)
-    return false;
 }
 
-//recycle code from the cave app 
+// recycled code from the cave app

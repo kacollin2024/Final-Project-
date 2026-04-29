@@ -4,33 +4,15 @@ using namespace std;
 
 Node::Node()
 {
-    next = nullptr;
-}
-Node::Node(string word)
-{
-    next = nullptr;
-    setData(word);
-}
-bool Node ::setData(string newword)
-{
-    if (newword.empty())
-        return false;
-    data = newword;
-    return true;
-}
-string Node::getData()
-{
-    return data;
+    // constructor
 }
 
-// going to need more methods for this node class
-
-void Node::setNext(Node *nextNode)
+void Node::setCurrentWord()
 {
-    next = nextNode;
+    // sets the currentWord for this node
 }
 
-Node *Node::getNext()
+string Node::getCurrentWord()
 {
-    return next;
+    // returns the currentWord
 }

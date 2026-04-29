@@ -1,24 +1,23 @@
 ﻿#pragma once
 #include <string>
-#include "Node.h"
 using namespace std;
 
 class TheStackIn25Words
 {
 
 private:
-    Node* top;
-    int count;
-    int MAX_SIZE = 25;
+    void push();
+
+    string pop();
+
+    bool stackIsEmpty();
 
 public:
     TheStackIn25Words();
+
     ~TheStackIn25Words();
 
-    void push(string word);
-    string pop();
-    int getCount();
-    bool stackIsEmpty();
     void mainMenu();
-   
+
+    void loadTheStackIn25Words();
 };

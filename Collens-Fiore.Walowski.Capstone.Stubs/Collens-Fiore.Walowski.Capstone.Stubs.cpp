@@ -1,13 +1,14 @@
 ﻿#include <iostream> 
 // Made by Kailey Collins-Fiore and Samuel Walowski
+// Made using CLion JetBrains which uses CMakeLists to run instead of sln files
 
-#include "TheStackIn25Words.h"
+#include "Menu.h"
 
 
 int main()
 {
-    TheStackIn25Words stack;
-    stack.mainMenu();
+    Menu menu;
+    menu.displayMenu();
     return 0;
 }
 

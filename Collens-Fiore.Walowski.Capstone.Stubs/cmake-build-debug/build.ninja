@@ -73,6 +73,14 @@ build CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Node.cpp.obj: CXX_COM
   OBJECT_FILE_DIR = CMakeFiles\Collens_Fiore_Walowski_Capstone_Stubs.dir
   TARGET_SUPPORT_DIR = CMakeFiles\Collens_Fiore_Walowski_Capstone_Stubs.dir
 
+build CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Menu.cpp.obj: CXX_COMPILER__Collens_Fiore_Walowski_Capstone_Stubs_unscanned_Debug C$:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/Menu.cpp || cmake_object_order_depends_target_Collens_Fiore_Walowski_Capstone_Stubs
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\Collens_Fiore_Walowski_Capstone_Stubs.dir\Menu.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Collens_Fiore_Walowski_Capstone_Stubs.dir
+  OBJECT_FILE_DIR = CMakeFiles\Collens_Fiore_Walowski_Capstone_Stubs.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\Collens_Fiore_Walowski_Capstone_Stubs.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Collens_Fiore_Walowski_Capstone_Stubs
@@ -81,7 +89,7 @@ build CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Node.cpp.obj: CXX_COM
 #############################################
 # Link the executable Collens_Fiore_Walowski_Capstone_Stubs.exe
 
-build Collens_Fiore_Walowski_Capstone_Stubs.exe: CXX_EXECUTABLE_LINKER__Collens_Fiore_Walowski_Capstone_Stubs_Debug CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Collens-Fiore.Walowski.Capstone.Stubs.cpp.obj CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/TheStackIn25Words.cpp.obj CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Node.cpp.obj
+build Collens_Fiore_Walowski_Capstone_Stubs.exe: CXX_EXECUTABLE_LINKER__Collens_Fiore_Walowski_Capstone_Stubs_Debug CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Collens-Fiore.Walowski.Capstone.Stubs.cpp.obj CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/TheStackIn25Words.cpp.obj CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Node.cpp.obj CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Menu.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
