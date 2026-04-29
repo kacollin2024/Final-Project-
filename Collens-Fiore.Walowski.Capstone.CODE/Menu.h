@@ -1,21 +1,18 @@
 #pragma once
-#include "Menu.cpp"
+#include "TheStackIn25Words.h"
 
 class Menu
 {
 private:
-    Stack wordStack;
-    InputOutput io;
+    TheStackIn25Words wordStack;
 
 public:
     Menu();
     ~Menu();
 
     void menu();
-     void mainMenu();
     void addWordsToStack();
-    void pushWord();
-    void popWord();
-    void displayStack();
+    //void pushWord();
+    //void popWord();
+    //void displayStack();
 };
-#endif

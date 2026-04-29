@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Collens_Fiore_Walowski_Capstone_Stubs.dir\\Node.cpp.obj",
+            "outputs": [
+                "C:\\Collens-Fiore.Walowski.Capstone.CODE\\out\\build\\x64-Debug\\vc140.pdb",
+                "CMakeFiles\\Collens_Fiore_Walowski_Capstone_Stubs.dir\\Node.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

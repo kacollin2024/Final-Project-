@@ -15,12 +15,12 @@ bool Node ::setData(string newword)
 {
     if (newword.empty())
         return false;
-    data = newword;
+    this->data = newword;
     return true;
 }
 string Node::getData()
 {
-    return data;
+    return this->data;
 }
 
 // going to need more methods for this node class

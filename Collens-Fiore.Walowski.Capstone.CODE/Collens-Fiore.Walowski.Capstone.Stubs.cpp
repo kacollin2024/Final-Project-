@@ -1,13 +1,12 @@
-﻿#include <iostream> 
+﻿#include <iostream>
 // Made by Kailey Collins-Fiore and Samuel Walowski
 
-#include "TheStackIn25Words.h"
-
+#include "Menu.h"
 
 int main()
 {
-    TheStackIn25Words stack;
-    stack.mainMenu();
+    Menu menu;
+    menu.addWordsToStack();
+    menu.menu();
     return 0;
 }
-

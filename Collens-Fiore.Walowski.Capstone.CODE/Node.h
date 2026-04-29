@@ -4,20 +4,19 @@ using namespace std;
 
 class Node
 {
-private:
+public:
     string data;
     Node *next;
 
-public:
     Node();
-    Node(String Word);
-    ~Node();
+    Node(string Word);
+    //~Node();
 
-    // methods s
+    // methods
     bool setData(string newword);
     string getData();
 
     void setNext(Node *nextNode);
     Node *getNext();
 };
-#endif
+
