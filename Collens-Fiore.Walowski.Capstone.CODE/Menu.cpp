@@ -31,7 +31,7 @@ Menu :: ~Menu(){
                 "0. Exit"
                 "1. Disply Stack"
                 "_________________________";
-        }
+        
         while (true)
         {
             string userChoice = io.getInputFromUser(theMenu);
@@ -59,5 +59,5 @@ Menu :: ~Menu(){
                 }
             io.displayMessageToUser("/n");
         }
-
+    }
        
