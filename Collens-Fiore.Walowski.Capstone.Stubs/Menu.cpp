@@ -35,26 +35,25 @@ public:
         {
             string userChoice = io.getInputFromUser(theMenu);
             if (userChoice.empty())
-            userChoice = "x"
+                userChoice = "x"
 
-            switch (userChoice[0])
-        
-            {
-            case '0':
-                return;
-            case '1':
-                showStack.Print(need method here); 
-                break;
-            default:
-               io.displayMessageToUser("Invalid choice. Please try again.");
-                break;
-            }
+                    switch (userChoice[0])
+
+                {
+                case '0':
+                    return;
+                case '1':
+                    showStack.Print(need method here);
+                    break;
+                default:
+                    io.displayMessageToUser("Invalid choice. Please try again.");
+                    break;
+                }
             io.displayMessageToUser("/n");
-            
         }
 
         void displayMenu()
-        { }
-        
+        {
+        }
     }
 }
