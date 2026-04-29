@@ -12,6 +12,7 @@ public:
     ~Menu();
 
     void menu();
+     void mainMenu();
     void addWordsToStack();
     void pushWord();
     void popWord();
