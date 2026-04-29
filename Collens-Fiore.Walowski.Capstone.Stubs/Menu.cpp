@@ -2,17 +2,14 @@
 #include <iostream>
 using namespace std;
 
-class Menu
-{
-private:
-public:
-    Menu()
-    {
-    }
+Menu :: Menu(){
 
-    ~Menu()
-    {
-        void addManyWordsToStack()
+}
+
+Menu :: ~Menu(){
+
+}
+        void Menu ::addManyWordsToStack()
         {
             string data[25] = {
                 // all words will go here
@@ -20,11 +17,15 @@ public:
             };
             for (int i = 0; i < 25; i++)
             {
+                if (data[i] != "")
+                {
+                    wordStack.push(data[i]);
+                }
             }
         }
-        void menu()
+        void Menu ::menu()
         {
-            string Menu =
+            string theMenu =
                 "Please make a selection:"
                 "_________________________"
                 "0. Exit"
@@ -42,9 +43,16 @@ public:
                 {
                 case '0':
                     return;
+                    //exits the program
                 case '1':
-                    showStack.Print(need method here);
-                    break;
+                    if (wordStack.stackIsEmpty()) {
+                    cout << "The stack is empty." << endl;
+                } else {
+                    while (!wordStack.stackIsEmpty()) {
+                        cout << "Popped: " << wordStack.pop() << endl;
+                    }
+                }
+                break;
                 default:
                     io.displayMessageToUser("Invalid choice. Please try again.");
                     break;
@@ -52,8 +60,4 @@ public:
             io.displayMessageToUser("/n");
         }
 
-        void displayMenu()
-        {
-        }
-    }
-}
+       

@@ -19,5 +19,6 @@ public:
     string pop();
     int getCount();
     bool stackIsEmpty();
+    void mainMenu();
    
 };
